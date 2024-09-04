@@ -78,9 +78,12 @@ h1 {
 }
 
 p {
-    margin-bottom: 10px; /* Espaçamento abaixo dos parágrafos */
-    font-size: 1.2em; /* Tamanho da fonte dos parágrafos */
-    color: #000000; /* Cor do texto dos parágrafos */
+    color: #000000;
+    text-align: justify; /* Justifica o texto */
+    margin: 0 auto; /* Centraliza o bloco de texto, se necessário */
+    max-width: 800px; /* Define uma largura máxima para a legibilidade */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dos parágrafos */
+    line-height: 1.8; /* Ajusta a altura da linha para melhorar a legibilidade */
 }
 
 .button {
@@ -139,3 +142,9 @@ footer p {
     font-size: 1em; /* Tamanho da fonte do texto do rodapé */
     color: #fff; /* Cor do texto do rodapé */
 }
+
+.links {
+    text-align: center;
+}
+
+

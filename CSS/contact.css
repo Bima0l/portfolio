@@ -167,8 +167,6 @@ p {
     width: 40px; /* Largura dos ícones */
 }
 
-
-
 /* Rodapé */
 footer {
     background: #DAB8FF; /* Cor lilás para o rodapé */
@@ -183,3 +181,5 @@ footer p {
     font-size: 1em; /* Tamanho da fonte do texto do rodapé */
     color: #fff; /* Cor do texto do rodapé */
 }
+
+

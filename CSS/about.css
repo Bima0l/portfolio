@@ -62,7 +62,7 @@ nav ul li a:hover {
 /* Seção Introdução Pessoal */
 .intro {
     padding: 40px 20px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
+    text-align: center; /* Centraliza a imagem e o título */
 }
 
 .intro img {
@@ -73,24 +73,27 @@ nav ul li a:hover {
 
 .intro h2 {
     margin-bottom: 10px; /* Espaçamento abaixo do título */
-    font-size: 2.5em; /* Tamanho da fonte do título */
+    font-size: 2.5em; /* Aumenta o tamanho da fonte do título */
     font-weight: 700; /* Peso da fonte para o título */
     color: #DAB8FF; /* Cor lilás para o título */
 }
 
 .intro p {
-    margin-bottom: 10px; /* Espaçamento abaixo dos parágrafos */
-    font-size: 1.2em; /* Tamanho da fonte dos parágrafos */
-    color: #000000; /* Cor do texto dos parágrafos */
+    text-align: justify; /* Justifica o texto */
+    margin: 0 auto; /* Centraliza o bloco de texto, se necessário */
+    max-width: 800px; /* Define uma largura máxima para a legibilidade */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dos parágrafos */
+    line-height: 1.8; /* Ajusta a altura da linha para melhorar a legibilidade */
 }
+
+
 
 /* Seção de Habilidades */
 .skills {
-    padding: 40px 20px; /* Espaçamento interno */
+    padding: 10px 20px; /* Espaçamento interno */
 }
 
 .skills h2 {
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
     font-size: 2.5em; /* Tamanho da fonte do título */
     font-weight: 700; /* Peso da fonte para o título */
     color: #DAB8FF; /* Cor lilás para o título */
@@ -192,8 +195,10 @@ footer {
 }
 
 /* Estilo para h1 */
+/* Estilo para h1 */
 h1 {
     text-align: center;
+    margin-top: 40px; /* Adiciona espaço acima do título */
     margin-bottom: 10px; /* Espaçamento abaixo do título */
     font-size: 2.5em; /* Tamanho da fonte do título */
     color: #9B59B6; /* Cor roxa para o título */
